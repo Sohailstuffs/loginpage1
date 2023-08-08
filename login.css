@@ -1,0 +1,69 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./IMAGES/wp4390828.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Abril Fatface', cursive;
+}
+#cont{
+    display: flex;                        /*how to centre a division ?*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+form{
+    background-color: rgba(183, 142, 230, 0.491);
+    width: 35%;
+    padding: 20px;
+    border-radius: 5px;
+}
+label,input,button,a{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+form h1{
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid black;
+    color: black;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: blue;
+}
+button{
+    min-width: 30%;
+    height: 50px;
+    background-color: rgb(149, 94, 201);
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+#b{
+    display: flex;
+    justify-content: space-evenly;
+}
+#can{
+    background-color: red;
+}
+#log{
+    background-color: greenyellow;
+}
+a{
+    color: black;
+    text-decoration: solid;
+    font-size: 20px;
+
+}
+#user::placeholder{
+    color: darkcyan;
+}
+#pass::placeholder{
+    color: darkcyan;
+}
